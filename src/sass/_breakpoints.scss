@@ -1,0 +1,24 @@
+$breakpoints: (
+  "sm": "screen and (max-width: 370px)",
+  "md": "screen and (max-width: 768px)",
+  "lg": "screen and (max-width: 1180px)",
+  "xl": "screen and (max-width: 1300px)"
+) !default;
+
+@mixin bp($breakpoint) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pc {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sp {
+    display: none !important;
+  }
+}

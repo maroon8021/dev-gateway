@@ -33,7 +33,7 @@
     "gatsby-plugin-eslint": "^2.0.4",
     "prettier": "^1.16.4",
     "prettier-stylelint": "^0.4.2",
-    "stylelint": "^9.10.1",
+    "stylelint": "^15.10.1",
     "stylelint-config-rational-order": "0.0.4",
     "stylelint-config-standard": "^18.2.0",
     "stylelint-order": "^2.2.0",
